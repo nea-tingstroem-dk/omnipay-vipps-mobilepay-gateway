@@ -1,0 +1,27 @@
+{
+	"name" : "nea-tingstroem-dk/omnipay-vipps-mobilepay-gateway",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Niels Erik Andersen",
+			"email" : "nea@tingstroem.dk"
+		}
+	],
+	"keywords" : [
+		"vipps-mobilepay",
+		"api",
+		"payment-gateway",
+		"omnipay"
+	],
+	"description" : "Vipps MobilePay Gateway Driver for Omnipay",
+	"minimum-stability" : "dev",
+	"require" : {
+		"omnipay/common" : "*",
+		"league/iso3166" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Omnipay\\VippsMobilepay\\" : "src"
+		}
+	}
+}
