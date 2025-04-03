@@ -16,20 +16,11 @@
 	"description" : "Vipps MobilePay Gateway Driver for Omnipay",
 	"minimum-stability" : "dev",
 	"require" : {
-		"omnipay/common" : "*",
-		"league/iso3166" : "*",
-		"symfony/http-client": "6.4.x-dev",
-		"php-http/httplug": "2.x-dev",
-		"nyholm/psr7": "^1.8@dev"
+		"omnipay/common" : "*"
 	},
 	"autoload" : {
 		"psr-4" : {
 			"Omnipay\\VippsMobilepay\\" : "src"
-		}
-	},
-	"config": {
-		"allow-plugins": {
-			"php-http/discovery": true
 		}
 	}
 }
