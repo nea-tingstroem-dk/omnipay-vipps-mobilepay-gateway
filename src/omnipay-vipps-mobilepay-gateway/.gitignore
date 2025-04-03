@@ -1,0 +1,8 @@
+/vendor/
+/.buildpath
+/.project
+/demo.php
+/.settings/
+/composer.lock
+/composer.phar
+/nbproject

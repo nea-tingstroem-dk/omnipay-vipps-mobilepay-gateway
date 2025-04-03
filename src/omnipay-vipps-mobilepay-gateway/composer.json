@@ -1,0 +1,35 @@
+{
+	"name" : "nea-tingstroem-dk/omnipay-vipps-mobilepay-gateway",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Niels Erik Andersen",
+			"email" : "nea@tingstroem.dk"
+		}
+	],
+	"keywords" : [
+		"vipps-mobilepay",
+		"api",
+		"payment-gateway",
+		"omnipay"
+	],
+	"description" : "Vipps MobilePay Gateway Driver for Omnipay",
+	"minimum-stability" : "dev",
+	"require" : {
+		"omnipay/common" : "*",
+		"league/iso3166" : "*",
+		"symfony/http-client": "6.4.x-dev",
+		"php-http/httplug": "2.x-dev",
+		"nyholm/psr7": "^1.8@dev"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Omnipay\\VippsMobilepay\\" : "src"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"php-http/discovery": true
+		}
+	}
+}
